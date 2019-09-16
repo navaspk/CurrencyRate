@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout used to show the custom toolbar -->
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_container"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:background="@color/primary"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:titleTextColor="@android:color/white"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_actionbar_height"
+        android:layout_alignParentTop="true"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/toolbar_settings_imageview"
+            android:layout_width="@dimen/setting_size"
+            android:layout_height="@dimen/setting_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/toolbar_title_left_right"
+            android:background="@drawable/btn_ripple_background"
+            android:gravity="center_vertical"
+            android:padding="@dimen/toolbar_home_padding"
+            android:src="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/toolbar_settings_imageview"
+            android:layout_marginStart="@dimen/toolbar_title_left_right"
+            android:layout_toEndOf="@+id/toolbar_settings_imageview"
+            android:gravity="center_vertical"
+            android:text="@string/title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
+

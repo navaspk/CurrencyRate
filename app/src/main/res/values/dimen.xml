@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="navigationview_margin_top">400dp</dimen>
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="banner_actionbar_height">57dp</dimen>
+    <dimen name="toolbar_home_left">-5dp</dimen>
+    <dimen name="toolbar_home_padding">5dp</dimen>
+    <dimen name="toolbar_title_size">18dp</dimen>
+    <dimen name="toolbar_title_left_right">10dp</dimen>
+    <dimen name="setting_size">45dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="no_internet_container">83dp</dimen>
+    <dimen name="no_internet_img_margin_top">100dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+    <dimen name="_13sp">13sp</dimen>
+    <dimen name="_9sp">9sp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_70dp">70dp</dimen>
+    <dimen name="_15sp">15sp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+</resources>
